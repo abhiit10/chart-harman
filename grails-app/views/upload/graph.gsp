@@ -34,11 +34,11 @@
     Grade [stHRsuite] : <g:select from="${gradeFilter}" name="grade" noSelection="['':'Please Select']" value="${params.grade}"></g:select>  <br>
     Onsite/Offshore : <g:select from="${onSiteFilter}" name="onsite" noSelection="['':'Please Select']" value="${params.onsite}"></g:select>  <br>
     Division (Including Horizontals) : <g:select from="${divisionFilter}" name="division" noSelection="['':'Please Select']" value="${params.division}"></g:select> <br>
-    SBU [stHRsuite] : <g:select from="${sbuFilter}" name="sbu" noSelection="['':'Please Select']" value="${params.sbu}"></g:select> <br>
+    %{--SBU [stHRsuite] : <g:select from="${sbuFilter}" name="sbu" noSelection="['':'Please Select']" value="${params.sbu}"></g:select> <br>
     Home GOC [stHRsuite] : <g:select from="${homeFilter}" name="home" noSelection="['':'Please Select']" value="${params.home}" ></g:select> <br>
     Reporting Manager Name : <g:select from="${rManagerFilter}" name="rManager" noSelection="['':'Please Select']" value="${params.rManager}"></g:select> <br>
     Final BU : <g:select from="${finalFilter}" name="final" noSelection="['':'Please Select']" value="${params.final}"></g:select> <br>
-    Home GOC Manager : <g:select from="${homeGocFilter}" name="homeGoc" noSelection="['':'Please Select']" value="${params.homeGoc}"></g:select> <br>
+    Home GOC Manager : <g:select from="${homeGocFilter}" name="homeGoc" noSelection="['':'Please Select']" value="${params.homeGoc}"></g:select> <br>--}%
 
     <input type="submit" value="Advanced Filter">
 </g:form>
